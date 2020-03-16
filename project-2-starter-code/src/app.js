@@ -19,7 +19,7 @@ import Favourites from './components/Favourites'
 
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/project-2">
     <NavBar />
     <Switch>
       <Route exact path="/" component={Home} />

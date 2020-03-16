@@ -1,3 +1,5 @@
+const merge = require('webpack-merge')
+
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -7,7 +9,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve('dist'),
-    publicPath: '/'
+    publicPath: '/*THE NAME YOUR GITHUB PAGES URL GOES TO*/'
   },
   module: {
     rules: [
