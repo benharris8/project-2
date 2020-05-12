@@ -422,17 +422,17 @@ We then use the **ingredients array** from this function to populate the ingredi
 
 ## Screenshots
 
-![Homepage]()
+![Homepage](project-2-starter-code/screenshots/homepage.png)
 
-![Drinks]()
+![Drinks](project-2-starter-code/screenshots/drinks.png)
 
-![Single-Drink]()
+![Single-Drink](project-2-starter-code/screenshots/singledrink.png)
 
 ![Search-Form]()
 
 ![Search-Results]()
 
-![Favourited Drinks]()
+![Favourited Drinks](project-2-starter-code/screenshots/favouriteddrinks.png)
 
 ## Potential future features
 
