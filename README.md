@@ -122,8 +122,7 @@ The routing of our page are:
 - The Single drink page would display all the information for the selected drink. To do this we passed the selected drink's ID to the page through the URL and did an axios.get request to the https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id} end point with the ID (see details below at The Shared Component:DrinkCard :id - the special syntax in react router) 
 
 - Challenge: limitation of API with singleDrink
-  - The API did not return a list of ingredient and the amount of ingredient needed:
-       - <img src="./assets/screenshots/noingredientpairs.jpg" width="450"/>  
+  - The API did not return a list of ingredient and the amount of ingredient needed
 
   - To solve this problem we had to write a function getIngredients(data) to return an array of ingredient and ingredient measurement pairs. (i.e [ [strIngredient1, strMeasure1], [strIngredient2, strMeasure2]... ] ). The function defines a counter ‘i’ and loops through while strIngredient{i} is not null and pairs it in an array with the strMeasure{i} then adds the newIngredient array to the final array (**ingredients array**) which is returned.
 We then use the **ingredients array** from this function to populate the ingredients list for the drink by first storing it in this.state.ingredients.
@@ -425,13 +424,13 @@ We then use the **ingredients array** from this function to populate the ingredi
 
 ![Homepage]()
 
-![Drinks](./src/images/screenshots/search.png)
+![Drinks]()
 
-![Single Drink]
+![Single-Drink]()
 
-![Search Form]
+![Search-Form]()
 
-![Search Results]
+![Search-Results]()
 
 ![Favourited Drinks]()
 
