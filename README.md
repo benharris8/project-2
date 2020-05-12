@@ -443,7 +443,7 @@ We then use the **ingredients array** from this function to populate the ingredi
 
 ## Bugs 
 
-
+- There is an error causing the desktop background image to not be displayed on the homepage.
 
 ## Lessons learned
 
